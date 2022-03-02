@@ -7,10 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="appBackGround">#5b8e7d</color>
-    <color name="appLightTone">#f4e285</color>
-    <color name="appLightGreen">#8cb369</color>
-    <color name="appLightOrange">#CF8A4D</color>
-    <color name="appDarkRed">#8A383C</color>
-    <color name="btn">#5B4F7A</color>
 </resources>
