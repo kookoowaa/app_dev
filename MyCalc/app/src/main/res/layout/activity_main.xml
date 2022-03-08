@@ -8,12 +8,12 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@color/grayBG"
         android:padding="10dp"
         android:textSize="48sp"
-        android:text="@string/stringText"
         android:gravity="end|bottom"
 
         />
@@ -39,6 +39,7 @@
             android:layout_weight="1"
             android:text="8"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnNine"
@@ -47,6 +48,7 @@
             android:layout_weight="1"
             android:text="9"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnDivide"
@@ -55,9 +57,8 @@
             android:layout_weight="1"
             android:text="/"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -81,6 +82,7 @@
             android:layout_weight="1"
             android:text="5"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnSix"
@@ -89,6 +91,7 @@
             android:layout_weight="1"
             android:text="6"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnMultiply"
@@ -97,9 +100,8 @@
             android:layout_weight="1"
             android:text="*"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -123,6 +125,7 @@
             android:layout_weight="1"
             android:text="2"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnThree"
@@ -131,6 +134,7 @@
             android:layout_weight="1"
             android:text="3"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
         <Button
             android:id="@+id/btnMinus"
@@ -139,8 +143,8 @@
             android:layout_weight="1"
             android:text="-"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
-
     </LinearLayout>
 
     <LinearLayout
@@ -164,6 +168,7 @@
             android:layout_weight="1"
             android:text="CLR"
             android:layout_margin="2dp"
+            android:onClick="onClear"
             />
         <Button
             android:id="@+id/btnPlus"
@@ -172,8 +177,8 @@
             android:layout_weight="1"
             android:text="+"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
-
     </LinearLayout>
 
     <LinearLayout
