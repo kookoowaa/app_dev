@@ -202,7 +202,7 @@
             android:layout_weight="1"
             android:text="="
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             />
 
     </LinearLayout>
