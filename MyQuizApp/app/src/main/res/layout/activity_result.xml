@@ -6,69 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".activity_result"
     android:background="@drawable/ic_bg"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:text="Result"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textStyle="bold"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="25sp"
         />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/ic_trophy"
-        android:contentDescription="Trophy"
-
-        />
+        android:id="@+id/iv_trophy"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:contentDescription="image"
+        android:src="@drawable/ic_trophy" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/tv_congrats"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hey, Congratulations!"
-        android:gravity="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:layout_margin="20dp"
-        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
         />
 
     <TextView
-        android:id="@+id/result_name"
-        android:layout_width="match_parent"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="{Provisional name}"
-        android:gravity="center"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:layout_marginTop="25dp"
         />
 
     <TextView
-        android:id="@+id/result_score"
-        android:layout_width="match_parent"
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your score is {score} out of 9."
-        android:textColor="#A3A0A0"
-        android:gravity="center"
-        android:layout_margin="10dp"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:textSize="16dp"
+        android:textSize="20dp"
         />
 
-    <android.widget.Button
+    <Button
+        android:id="@+id/btn_finishe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="FINISH"
-        android:color="@color/white"
+        android:backgroundTint="@color/white"
         android:textColor="@color/design_default_color_primary"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         />
 
 
