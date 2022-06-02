@@ -12,7 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlacesInThePARK"
-        tools:targetApi="31">
+        tools:targetApi="21">
+        <activity
+            android:name=".AddPlaceActitvity"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/CustomNoActionBarTheme"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
