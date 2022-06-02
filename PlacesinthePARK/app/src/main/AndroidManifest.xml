@@ -14,7 +14,7 @@
         android:theme="@style/Theme.PlacesInThePARK"
         tools:targetApi="21">
         <activity
-            android:name=".AddPlaceActitvity"
+            android:name=".AddPlaceActivity"
             android:exported="false"
             android:screenOrientation="fullSensor"
             android:theme="@style/CustomNoActionBarTheme"
